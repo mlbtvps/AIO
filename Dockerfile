@@ -1,0 +1,1 @@
+FROM tgbot/aio:latest
