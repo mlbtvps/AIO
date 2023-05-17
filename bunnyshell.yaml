@@ -1,0 +1,23 @@
+-
+
+    kind: DockerImage
+
+    version: v1
+
+    name: my-app-image
+
+    context: /
+
+    dockerfile: Dockerfile
+
+    target: null
+
+    args:
+
+        ENV: bunnyshell
+
+    gitRepo: 'https://github.com/mlbtvps/AIO'
+
+    gitBranch: main
+
+    gitApplicationPath: /
